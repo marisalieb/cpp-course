@@ -3,4 +3,5 @@ project(HelloWorld)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(HelloWorld main.cpp)
+add_executable(HelloWorld main.cpp utils/greet.cpp
+)
